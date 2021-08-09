@@ -1,0 +1,22 @@
+{
+  "name": "AniEmailValidator",
+  "version": "0.1.0",
+  "summary": "A short description of AniEmailValidator.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/AniRut907/AniEmailValidator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AniRut907": "Aniket.Lokhande@extentia.com"
+  },
+  "source": {
+    "git": "https://github.com/AniRut907/AniEmailValidator.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "AniEmailValidator/Classes/**/*"
+}

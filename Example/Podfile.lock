@@ -1,0 +1,16 @@
+PODS:
+  - AniEmailValidator (0.1.0)
+
+DEPENDENCIES:
+  - AniEmailValidator (from `../`)
+
+EXTERNAL SOURCES:
+  AniEmailValidator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AniEmailValidator: a546509ab71811bb490e14c19697e1e222bc29b3
+
+PODFILE CHECKSUM: e775d4a06ae24620b31479976925cf988d9cae65
+
+COCOAPODS: 1.10.1

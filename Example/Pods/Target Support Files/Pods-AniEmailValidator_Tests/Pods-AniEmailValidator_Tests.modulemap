@@ -1,0 +1,6 @@
+framework module Pods_AniEmailValidator_Tests {
+  umbrella header "Pods-AniEmailValidator_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

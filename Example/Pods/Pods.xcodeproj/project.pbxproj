@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D6446D5B06D9E68D5FF5CC293797F85 /* AniEmailValidator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 537A123DB935028E1EC2C9C15A87DAD1 /* AniEmailValidator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		421018A9394860274EA131940625C584 /* Pods-AniEmailValidator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 471F4158BEBB1146E4975456ADA26B51 /* Pods-AniEmailValidator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E0072A279846D5F85ED203A2FF437B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4F43B23D8713D85FEDD32051868F859C /* Pods-AniEmailValidator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8C5CB5DDD284BF58A2D793FF820C53 /* Pods-AniEmailValidator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9244E67F3762488C700717450D5C00B0 /* Pods-AniEmailValidator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1390F67F16DB149BC820FC67A76A24D1 /* Pods-AniEmailValidator_Example-dummy.m */; };
+		BB29F4F01977C39A4F4FE74B2BFDE7F2 /* AniEmailValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D7AADD8E2D3AFD0D1A05CDB5AEE432 /* AniEmailValidator-dummy.m */; };
+		C175FB7DD4F37CF56E694BD809C44676 /* Pods-AniEmailValidator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1002CC1AB23126986134310F498707D /* Pods-AniEmailValidator_Tests-dummy.m */; };
+		C795F017B39C3780FF068B5B54BF7C1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CCA96375E16E543879E0C0058A483291 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F9FF49CC26C10F8700AD6D8B /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FF49CB26C10F8700AD6D8B /* Manager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0512C08FC44963B349195477DD7F695 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C34EF5F7755BE3FA12EBC556F2492B35;
+			remoteInfo = "Pods-AniEmailValidator_Example";
+		};
+		FE057D3FDE56B973F9C4CD4DCFDA0BA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 306EF972C3A64390F3D9A121829D64F9;
+			remoteInfo = AniEmailValidator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10DDFE1756EF1851982C0CE030106B6C /* AniEmailValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AniEmailValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1390F67F16DB149BC820FC67A76A24D1 /* Pods-AniEmailValidator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AniEmailValidator_Example-dummy.m"; sourceTree = "<group>"; };
+		435CA23D93DA376159CBD0F88EB5B50D /* AniEmailValidator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AniEmailValidator.modulemap; sourceTree = "<group>"; };
+		471F4158BEBB1146E4975456ADA26B51 /* Pods-AniEmailValidator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AniEmailValidator_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4BD60FA30CEE2F0459CAD39121FA11E0 /* AniEmailValidator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AniEmailValidator-prefix.pch"; sourceTree = "<group>"; };
+		4CCCBD8E77EAE3BB95AE9FAC3277C6A0 /* Pods-AniEmailValidator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AniEmailValidator_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4D4D1B33E1EBFEA76983DB9C1736DB20 /* Pods-AniEmailValidator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AniEmailValidator_Example.modulemap"; sourceTree = "<group>"; };
+		537A123DB935028E1EC2C9C15A87DAD1 /* AniEmailValidator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AniEmailValidator-umbrella.h"; sourceTree = "<group>"; };
+		541B15169F4D85BA0C9B04D44BB4938D /* AniEmailValidator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AniEmailValidator.release.xcconfig; sourceTree = "<group>"; };
+		5674E0A63008439F6C10D1A31B756EEA /* Pods-AniEmailValidator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AniEmailValidator_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5AC9CD9887CE5BA59161B155CC6BD4CD /* Pods_AniEmailValidator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AniEmailValidator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62936DB119FE44FB9FC062E45361330E /* Pods-AniEmailValidator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AniEmailValidator_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		689D35B71BD50E7226D4CBDFADA9E1AC /* Pods-AniEmailValidator_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AniEmailValidator_Example-Info.plist"; sourceTree = "<group>"; };
+		6E88B6542C7B2037D0F706A201E14D7E /* Pods-AniEmailValidator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AniEmailValidator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		72BBB060431429F949F3F5C034847102 /* Pods-AniEmailValidator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AniEmailValidator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7A8AD59ECD1A327D47F9E25C77033886 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		94D4441DBE382391A90C70524CE65891 /* Pods-AniEmailValidator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AniEmailValidator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9BD9634F0DE0BD2137B041FAA519F91A /* Pods_AniEmailValidator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AniEmailValidator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F8C5CB5DDD284BF58A2D793FF820C53 /* Pods-AniEmailValidator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AniEmailValidator_Example-umbrella.h"; sourceTree = "<group>"; };
+		B944583F8347E4F62D1FDC6091091D9A /* Pods-AniEmailValidator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AniEmailValidator_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BD3C2E896FA4AEB5ECDB5D35DB4C2311 /* AniEmailValidator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AniEmailValidator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C1002CC1AB23126986134310F498707D /* Pods-AniEmailValidator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AniEmailValidator_Tests-dummy.m"; sourceTree = "<group>"; };
+		C1D7AADD8E2D3AFD0D1A05CDB5AEE432 /* AniEmailValidator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AniEmailValidator-dummy.m"; sourceTree = "<group>"; };
+		C43B3483F9C3D6B81286CBE5ACD2A089 /* Pods-AniEmailValidator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AniEmailValidator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C6EE53172F8607FC9EB296972FAFB846 /* Pods-AniEmailValidator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AniEmailValidator_Tests-Info.plist"; sourceTree = "<group>"; };
+		DE3141E2EE7E9F009359D02D097EDFFC /* Pods-AniEmailValidator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AniEmailValidator_Tests.modulemap"; sourceTree = "<group>"; };
+		F4B4FCA79C2716A72958155FC3F2B6D9 /* Pods-AniEmailValidator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AniEmailValidator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F9E4A5D6734A7DCFAAAADD0877FC11FC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F9FF49CB26C10F8700AD6D8B /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		FA3DA5F5E7C397A5E7FF8DBA5AFC6029 /* AniEmailValidator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AniEmailValidator-Info.plist"; sourceTree = "<group>"; };
+		FD97F830C760409F9E91BCF90FC98DF9 /* AniEmailValidator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AniEmailValidator.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49E2B5A23FCD87BCB49913075D90CDCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E0072A279846D5F85ED203A2FF437B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62888148CB9DED247E6F5A96E9296DF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C795F017B39C3780FF068B5B54BF7C1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D55F260EB7D14E9E8D5EE2D6E2935103 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA96375E16E543879E0C0058A483291 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D9438D58BCCC5AD55F3D3E1C03DBEC0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				58133972F9D591AB83346B7632086BEE /* Pods-AniEmailValidator_Example */,
+				C071BD305971410F503D7DCCE5E78BB4 /* Pods-AniEmailValidator_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		58133972F9D591AB83346B7632086BEE /* Pods-AniEmailValidator_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4D4D1B33E1EBFEA76983DB9C1736DB20 /* Pods-AniEmailValidator_Example.modulemap */,
+				C43B3483F9C3D6B81286CBE5ACD2A089 /* Pods-AniEmailValidator_Example-acknowledgements.markdown */,
+				6E88B6542C7B2037D0F706A201E14D7E /* Pods-AniEmailValidator_Example-acknowledgements.plist */,
+				1390F67F16DB149BC820FC67A76A24D1 /* Pods-AniEmailValidator_Example-dummy.m */,
+				4CCCBD8E77EAE3BB95AE9FAC3277C6A0 /* Pods-AniEmailValidator_Example-frameworks.sh */,
+				689D35B71BD50E7226D4CBDFADA9E1AC /* Pods-AniEmailValidator_Example-Info.plist */,
+				9F8C5CB5DDD284BF58A2D793FF820C53 /* Pods-AniEmailValidator_Example-umbrella.h */,
+				62936DB119FE44FB9FC062E45361330E /* Pods-AniEmailValidator_Example.debug.xcconfig */,
+				B944583F8347E4F62D1FDC6091091D9A /* Pods-AniEmailValidator_Example.release.xcconfig */,
+			);
+			name = "Pods-AniEmailValidator_Example";
+			path = "Target Support Files/Pods-AniEmailValidator_Example";
+			sourceTree = "<group>";
+		};
+		823A587682E2FF11BAD3EC3AE716F6A5 /* AniEmailValidator */ = {
+			isa = PBXGroup;
+			children = (
+				F9FF49CA26C10F4700AD6D8B /* Sources */,
+				BAC1FAE74B37AC0365CF13615148DDA8 /* Pod */,
+				CB595E6B33D38B668330DB7A9A2EC2F6 /* Support Files */,
+			);
+			name = AniEmailValidator;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AAA59502B42E15A91D066E78A5210C5A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				823A587682E2FF11BAD3EC3AE716F6A5 /* AniEmailValidator */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BAC1FAE74B37AC0365CF13615148DDA8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BD3C2E896FA4AEB5ECDB5D35DB4C2311 /* AniEmailValidator.podspec */,
+				F9E4A5D6734A7DCFAAAADD0877FC11FC /* LICENSE */,
+				7A8AD59ECD1A327D47F9E25C77033886 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C071BD305971410F503D7DCCE5E78BB4 /* Pods-AniEmailValidator_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DE3141E2EE7E9F009359D02D097EDFFC /* Pods-AniEmailValidator_Tests.modulemap */,
+				F4B4FCA79C2716A72958155FC3F2B6D9 /* Pods-AniEmailValidator_Tests-acknowledgements.markdown */,
+				72BBB060431429F949F3F5C034847102 /* Pods-AniEmailValidator_Tests-acknowledgements.plist */,
+				C1002CC1AB23126986134310F498707D /* Pods-AniEmailValidator_Tests-dummy.m */,
+				C6EE53172F8607FC9EB296972FAFB846 /* Pods-AniEmailValidator_Tests-Info.plist */,
+				471F4158BEBB1146E4975456ADA26B51 /* Pods-AniEmailValidator_Tests-umbrella.h */,
+				94D4441DBE382391A90C70524CE65891 /* Pods-AniEmailValidator_Tests.debug.xcconfig */,
+				5674E0A63008439F6C10D1A31B756EEA /* Pods-AniEmailValidator_Tests.release.xcconfig */,
+			);
+			name = "Pods-AniEmailValidator_Tests";
+			path = "Target Support Files/Pods-AniEmailValidator_Tests";
+			sourceTree = "<group>";
+		};
+		CB595E6B33D38B668330DB7A9A2EC2F6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				435CA23D93DA376159CBD0F88EB5B50D /* AniEmailValidator.modulemap */,
+				C1D7AADD8E2D3AFD0D1A05CDB5AEE432 /* AniEmailValidator-dummy.m */,
+				FA3DA5F5E7C397A5E7FF8DBA5AFC6029 /* AniEmailValidator-Info.plist */,
+				4BD60FA30CEE2F0459CAD39121FA11E0 /* AniEmailValidator-prefix.pch */,
+				537A123DB935028E1EC2C9C15A87DAD1 /* AniEmailValidator-umbrella.h */,
+				FD97F830C760409F9E91BCF90FC98DF9 /* AniEmailValidator.debug.xcconfig */,
+				541B15169F4D85BA0C9B04D44BB4938D /* AniEmailValidator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AniEmailValidator";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				AAA59502B42E15A91D066E78A5210C5A /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				ECDDDFA6AA4B849CA121814BE37DB3FF /* Products */,
+				1D9438D58BCCC5AD55F3D3E1C03DBEC0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECDDDFA6AA4B849CA121814BE37DB3FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10DDFE1756EF1851982C0CE030106B6C /* AniEmailValidator.framework */,
+				9BD9634F0DE0BD2137B041FAA519F91A /* Pods_AniEmailValidator_Example.framework */,
+				5AC9CD9887CE5BA59161B155CC6BD4CD /* Pods_AniEmailValidator_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9FF49CA26C10F4700AD6D8B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F9FF49CB26C10F8700AD6D8B /* Manager.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		46248F20B9B72E40D52F80147C8EC005 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421018A9394860274EA131940625C584 /* Pods-AniEmailValidator_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C69D800088269965BE68D2AF9B29EFD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F43B23D8713D85FEDD32051868F859C /* Pods-AniEmailValidator_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEDBF872F8ED84A3B299DEABF63BB66C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6446D5B06D9E68D5FF5CC293797F85 /* AniEmailValidator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		306EF972C3A64390F3D9A121829D64F9 /* AniEmailValidator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87F63EF3FD2FFA37CDBAC2527D1FE4CD /* Build configuration list for PBXNativeTarget "AniEmailValidator" */;
+			buildPhases = (
+				EEDBF872F8ED84A3B299DEABF63BB66C /* Headers */,
+				1E8AAECCA6BBAFF84B051162092F590A /* Sources */,
+				49E2B5A23FCD87BCB49913075D90CDCE /* Frameworks */,
+				6209A80916718ECD3291306DD00A24E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AniEmailValidator;
+			productName = AniEmailValidator;
+			productReference = 10DDFE1756EF1851982C0CE030106B6C /* AniEmailValidator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3A0295BBDCCFE86E17E7D5C6B2B0EFE8 /* Pods-AniEmailValidator_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50B11FEDB416D87B12526ABFCFBB4BBD /* Build configuration list for PBXNativeTarget "Pods-AniEmailValidator_Tests" */;
+			buildPhases = (
+				46248F20B9B72E40D52F80147C8EC005 /* Headers */,
+				0913964ED79515320815A8D1DF9FA773 /* Sources */,
+				62888148CB9DED247E6F5A96E9296DF3 /* Frameworks */,
+				01489C3AC9296F6BC4A72B1C92D033B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FF1445F6456A0CBB55AC3DBD56A80AB /* PBXTargetDependency */,
+			);
+			name = "Pods-AniEmailValidator_Tests";
+			productName = "Pods-AniEmailValidator_Tests";
+			productReference = 5AC9CD9887CE5BA59161B155CC6BD4CD /* Pods_AniEmailValidator_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C34EF5F7755BE3FA12EBC556F2492B35 /* Pods-AniEmailValidator_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F4C98B78457E9222A533F90B124C044 /* Build configuration list for PBXNativeTarget "Pods-AniEmailValidator_Example" */;
+			buildPhases = (
+				5C69D800088269965BE68D2AF9B29EFD /* Headers */,
+				E892BE433C89554DBA84B040DB0184B1 /* Sources */,
+				D55F260EB7D14E9E8D5EE2D6E2935103 /* Frameworks */,
+				343543DF128ED0CAFD5C529810E9ECD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE417DBFB0F86D5D588ECD72AF586E48 /* PBXTargetDependency */,
+			);
+			name = "Pods-AniEmailValidator_Example";
+			productName = "Pods-AniEmailValidator_Example";
+			productReference = 9BD9634F0DE0BD2137B041FAA519F91A /* Pods_AniEmailValidator_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = ECDDDFA6AA4B849CA121814BE37DB3FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				306EF972C3A64390F3D9A121829D64F9 /* AniEmailValidator */,
+				C34EF5F7755BE3FA12EBC556F2492B35 /* Pods-AniEmailValidator_Example */,
+				3A0295BBDCCFE86E17E7D5C6B2B0EFE8 /* Pods-AniEmailValidator_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01489C3AC9296F6BC4A72B1C92D033B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		343543DF128ED0CAFD5C529810E9ECD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6209A80916718ECD3291306DD00A24E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0913964ED79515320815A8D1DF9FA773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C175FB7DD4F37CF56E694BD809C44676 /* Pods-AniEmailValidator_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E8AAECCA6BBAFF84B051162092F590A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB29F4F01977C39A4F4FE74B2BFDE7F2 /* AniEmailValidator-dummy.m in Sources */,
+				F9FF49CC26C10F8700AD6D8B /* Manager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E892BE433C89554DBA84B040DB0184B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9244E67F3762488C700717450D5C00B0 /* Pods-AniEmailValidator_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FF1445F6456A0CBB55AC3DBD56A80AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AniEmailValidator_Example";
+			target = C34EF5F7755BE3FA12EBC556F2492B35 /* Pods-AniEmailValidator_Example */;
+			targetProxy = F0512C08FC44963B349195477DD7F695 /* PBXContainerItemProxy */;
+		};
+		AE417DBFB0F86D5D588ECD72AF586E48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AniEmailValidator;
+			target = 306EF972C3A64390F3D9A121829D64F9 /* AniEmailValidator */;
+			targetProxy = FE057D3FDE56B973F9C4CD4DCFDA0BA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		49BE3EBAC2FF354CA7C57E833F0E65E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 541B15169F4D85BA0C9B04D44BB4938D /* AniEmailValidator.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AniEmailValidator/AniEmailValidator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AniEmailValidator/AniEmailValidator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AniEmailValidator/AniEmailValidator.modulemap";
+				PRODUCT_MODULE_NAME = AniEmailValidator;
+				PRODUCT_NAME = AniEmailValidator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		66D8354B74751BE6ADB4B569A0694FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B944583F8347E4F62D1FDC6091091D9A /* Pods-AniEmailValidator_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AniEmailValidator_Example/Pods-AniEmailValidator_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AniEmailValidator_Example/Pods-AniEmailValidator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6479CDC5BE5F7EE56C914EC11EB227A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5674E0A63008439F6C10D1A31B756EEA /* Pods-AniEmailValidator_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AniEmailValidator_Tests/Pods-AniEmailValidator_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AniEmailValidator_Tests/Pods-AniEmailValidator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B5A4D624C8700827233B9BCCA962D7FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94D4441DBE382391A90C70524CE65891 /* Pods-AniEmailValidator_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AniEmailValidator_Tests/Pods-AniEmailValidator_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AniEmailValidator_Tests/Pods-AniEmailValidator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E7CF1E8436EFC62EDEC25767BB28B1EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62936DB119FE44FB9FC062E45361330E /* Pods-AniEmailValidator_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AniEmailValidator_Example/Pods-AniEmailValidator_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AniEmailValidator_Example/Pods-AniEmailValidator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F7402B9D2EDCF4BFF62F2DED6B6F12BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD97F830C760409F9E91BCF90FC98DF9 /* AniEmailValidator.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AniEmailValidator/AniEmailValidator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AniEmailValidator/AniEmailValidator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AniEmailValidator/AniEmailValidator.modulemap";
+				PRODUCT_MODULE_NAME = AniEmailValidator;
+				PRODUCT_NAME = AniEmailValidator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50B11FEDB416D87B12526ABFCFBB4BBD /* Build configuration list for PBXNativeTarget "Pods-AniEmailValidator_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A4D624C8700827233B9BCCA962D7FE /* Debug */,
+				A6479CDC5BE5F7EE56C914EC11EB227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F4C98B78457E9222A533F90B124C044 /* Build configuration list for PBXNativeTarget "Pods-AniEmailValidator_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7CF1E8436EFC62EDEC25767BB28B1EC /* Debug */,
+				66D8354B74751BE6ADB4B569A0694FD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87F63EF3FD2FFA37CDBAC2527D1FE4CD /* Build configuration list for PBXNativeTarget "AniEmailValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7402B9D2EDCF4BFF62F2DED6B6F12BA /* Debug */,
+				49BE3EBAC2FF354CA7C57E833F0E65E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
