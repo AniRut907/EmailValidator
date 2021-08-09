@@ -22,7 +22,7 @@ pod 'AniEmailValidator'
 
 ## Author
 
-AniRut907, Aniket.Lokhande@extentia.com
+AniRut907, anirut907@gmail.com
 
 ## License
 
