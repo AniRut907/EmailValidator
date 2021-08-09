@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'AniEmailValidator_Example' do
+  pod 'AniEmailValidator', :path => '../'
+
+  target 'AniEmailValidator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
