@@ -47,6 +47,7 @@
 		A83DC833174BC21EDD8AF730 /* AniEmailValidator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AniEmailValidator.podspec; path = ../AniEmailValidator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BE84B880DB231B9265876E86 /* Pods_AniEmailValidator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AniEmailValidator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB7BE76A19D3450BBE1A273E /* Pods-AniEmailValidator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AniEmailValidator_Example.release.xcconfig"; path = "Target Support Files/Pods-AniEmailValidator_Example/Pods-AniEmailValidator_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F965AF9226C262C400C64B23 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +136,7 @@
 				A83DC833174BC21EDD8AF730 /* AniEmailValidator.podspec */,
 				339E967C4E4693E89DC88E82 /* README.md */,
 				9E32E56585A02C11C8AAEB1F /* LICENSE */,
+				F965AF9226C262C400C64B23 /* Package.swift */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
