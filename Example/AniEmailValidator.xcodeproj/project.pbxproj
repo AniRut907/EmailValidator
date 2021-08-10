@@ -73,6 +73,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				F965AF9226C262C400C64B23 /* Package.swift */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for AniEmailValidator */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -136,7 +137,6 @@
 				A83DC833174BC21EDD8AF730 /* AniEmailValidator.podspec */,
 				339E967C4E4693E89DC88E82 /* README.md */,
 				9E32E56585A02C11C8AAEB1F /* LICENSE */,
-				F965AF9226C262C400C64B23 /* Package.swift */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
